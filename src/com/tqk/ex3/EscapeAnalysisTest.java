@@ -7,7 +7,8 @@ package com.tqk.ex3;
 public class EscapeAnalysisTest {
     public static void main(String[] args) throws Exception {
         long start = System.currentTimeMillis();
-        for (int i = 0; i < 50000000; i++) {//5000万次---5000万个对象
+        for (int i = 0; i < 50000000; i++) {
+            //5000万次---5000万个对象
             allocate();
         }
         System.out.println((System.currentTimeMillis() - start) + " ms");
