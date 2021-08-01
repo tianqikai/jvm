@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JVM:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/JVM_jar2</output-path>
+    <root id="archive" name="JVM.jar">
+      <element id="module-output" name="JVM" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/asm-5.0.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/cglib-3.2.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/javassist/javassist/3.24.1-GA/javassist-3.24.1-GA.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
